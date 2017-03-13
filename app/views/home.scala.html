@@ -1,0 +1,12 @@
+@(title:String)
+
+@main("Home Page" ){
+			<h1>Hurray!!!You are in the home page</h1>
+			<h2>Press the button to return to the index page</h2>
+
+ 		@helper.form(routes.Application.index){
+        <p>
+            <button type="submit" id="index">INDEX</button>
+        </p>   
+    }
+}

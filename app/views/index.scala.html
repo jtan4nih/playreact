@@ -1,0 +1,22 @@
+@(message: String)
+
+@main("Welcome to Index Page") {
+
+	<div class="container">
+		<div class="demo-headline">
+			@*<h1 class="demo-logo">*@
+				@*<div class="logo"></div>*@
+				@*BloggerMessage Service*@
+				@*<small>BloggerMessage Service is the platform where bloggermessage can find their details.</small>*@
+
+			@*</h1>*@
+			@*<h3><a href="@routes.UserApplication.userindex">SIGN UP</a></h3>*@
+
+			<h3><a href="@routes.Signup.signup" ><h1>Sign Up</h1></a></h3>
+			<h3><a href="@routes.Authentication.login" ><h1>Login</h1></a></h3>
+			<h3><a href="@routes.Application.dashboard"><h1>Blogging Messages</h1></a></h3>
+		</div>
+	</div>
+}
+
+

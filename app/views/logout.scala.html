@@ -1,0 +1,13 @@
+@(title: String)
+
+@main("Log Out") {
+
+    <h1>HURRAY!!! YOU HAVE NOW LOGGED IN</h1>
+    <h2>Hit LogOut Button to log out</h2>
+   
+    @helper.form(routes.Application.home){
+        <p>
+            <button type="submit" id="logoutbutton">LogOut</button>
+        </p>   
+    }
+}

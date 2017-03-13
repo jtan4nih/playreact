@@ -1,0 +1,2 @@
+:activator shell
+activator run
